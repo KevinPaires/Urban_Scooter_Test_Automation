@@ -95,7 +95,7 @@ class TestUrbanRoutes:
         urban_routes_page = pages.UrbanRoutesPage(self.driver)
         urban_routes_page.verify_modal_display(data.ADDRESS_FROM, data.ADDRESS_TO, data.PHONE_NUMBER, data.MESSAGE_FOR_DRIVER)
 
-        assert urban_routes_page.modal_is_displayed(), f'false'
+        assert urban_routes_page.modal_is_displayed(), f'False'
 
     @classmethod
     def teardown_class(cls):

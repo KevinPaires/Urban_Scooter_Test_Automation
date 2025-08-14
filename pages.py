@@ -18,7 +18,7 @@ class UrbanRoutesPage:
     LOCATE_PHONE_NUMBER = (By.XPATH, '//div[@class="np-text" and text()="Phone number"]')
     LOCATE_ENTER_PHONE_NUMBER = (By.ID, 'phone')
     LOCATE_PHONE_NUMBER_BUTTON = (By.XPATH, '//button[@class="button full"]')
-    #   PHONE_CODE = (By.ID, 'code')
+    # PHONE_CODE = (By.ID, 'code')
     ENTER_CARD_CODE = (By.XPATH, '//label[text()="Enter the code]')
     CONFIRM_PHONE_CODE = (By.XPATH, '//button[@type="submit" and normalize-space()="Confirm"]')
     SUPPORTIVE_TEXT_LOCATOR = (By.CSS_SELECTOR, '.tcard.active')
